@@ -1,0 +1,240 @@
+/* ========================= */
+/* PAGE BACKGROUND */
+/* ========================= */
+.product-detail-container {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #eef1f7, #f8f9fc);
+}
+
+/* ========================= */
+/* MAIN PRODUCT CARD */
+/* ========================= */
+.product-detail-card {
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+
+    background: #fff;
+    padding: 50px;
+    border-radius: 25px;
+
+    box-shadow: 0 25px 60px rgba(0,0,0,0.08);
+}
+
+/* ========================= */
+/* IMAGE */
+/* ========================= */
+.product-image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-image-box img {
+    width: 100%;
+    max-width: 420px;
+    height: 380px;
+    object-fit: contain;
+    border-radius: 18px;
+    transition: 0.3s;
+}
+
+.product-image-box img:hover {
+    transform: scale(1.05);
+}
+
+/* ========================= */
+/* INFO */
+/* ========================= */
+.product-info-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 22px;
+}
+
+.product-info-box h2 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/* DESCRIPTION */
+.product-desc {
+    color: #555;
+    font-size: 15px;
+    line-height: 1.8;
+    max-width: 420px;
+}
+
+/* PRICE */
+.product-price {
+    font-size: 24px;
+    color: #7b61ff;
+    font-weight: 700;
+}
+
+/* ========================= */
+/* SIZE SECTION */
+/* ========================= */
+.size-section {
+    margin-top: 10px;
+}
+
+.size-section h4 {
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+/* SIZE OPTIONS */
+.size-options {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+/* SIZE BUTTON */
+.size-btn {
+    padding: 10px 18px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    background: #f8f9fc;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.size-btn:hover {
+    border-color: #7b61ff;
+}
+
+/* ACTIVE */
+.size-btn.active {
+    background: linear-gradient(135deg, #7b61ff, #4fc3f7);
+    color: white;
+    border: none;
+    transform: scale(1.05);
+}
+
+/* DISABLED */
+/* DISABLED */
+.size-btn.disabled {
+    background: #e5e7eb;
+    color: #999;
+    border: 1px solid #d1d5db;
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+/* ========================= */
+/* ADD TO CART BUTTON */
+/* ========================= */
+.add-cart-btn {
+    margin-top: 20px;
+    width: 240px;
+
+    padding: 14px;
+    border: none;
+    border-radius: 30px;
+
+    background: linear-gradient(135deg, #7b61ff, #4fc3f7);
+    color: white;
+
+    font-size: 16px;
+    font-weight: 600;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-cart-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 30px rgba(123, 97, 255, 0.3);
+}
+
+/* ========================= */
+/* RELATED SECTION */
+/* ========================= */
+.related-section {
+    max-width: 1100px;
+    margin: 80px auto;
+}
+
+.related-section h3 {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+/* GRID */
+.related-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+}
+
+/* ========================= */
+/* RELATED CARD */
+/* ========================= */
+.related-card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 18px;
+    text-align: center;
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.related-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+/* IMAGE BOX */
+.related-image {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* IMAGE */
+.related-image img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* TEXT */
+.related-card h4 {
+    margin: 12px 0 6px;
+    font-size: 15px;
+}
+
+.related-card .price {
+    color: #7b61ff;
+    font-weight: bold;
+}
+
+/* BUTTON */
+.related-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+
+    background: linear-gradient(135deg, #7b61ff, #4fc3f7);
+    color: white;
+
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+}
+
+.related-btn:hover {
+    transform: scale(1.05);
+}
